@@ -2,6 +2,7 @@ import React from 'react'
 import {Switch,Route} from "react-router"
 import LandingPage from '../Components/LandingPage/LandingPage'
 import NavBar from '../Components/Navbar/NavBar'
+import { BusPage } from '../Page/BusPage'
 
 function Routers() {
     return (
@@ -10,6 +11,10 @@ function Routers() {
             <Switch>
                 <Route path="/" exact>
                     <LandingPage/>
+                </Route>
+
+                <Route path="/bus" exact>
+                   <BusPage />
                 </Route>
 
             </Switch>
