@@ -63,8 +63,8 @@ background: rgb(209, 229, 255);
 border: 2px solid rgb(155, 194, 246);
 border-radius: 0.8rem;
 position: absolute; 
-width: 25%;
-height: 85px;
+width: 26%;
+height: 82px;
 z-index: 2;
 margin-top: 60px;
 margin-left:28%;
@@ -97,11 +97,15 @@ grid-column-gap: 2%;
 
 `
 export const StyleDatePickerInput = styled.input`
+box-sizing: border-box;
 border:none;
 border-bottom-style: solid;
 border-bottom-color: rgb(239, 243, 248);
-margin-top:4px;
+margin-top:0px;
 outline: none;
+font-size: 1.2rem;
+font-weight:600;
+padding-bottom :10px;
 
 ::placeholder{
     color:grey;
@@ -111,7 +115,7 @@ outline: none;
 
 `
 export const StyleInputLabel = styled.label`
-margin: 15px 0px;
+margin: 13px 0px;
 color: rgb(137, 139, 145);
 font-size:1.1rem;
 `
@@ -128,7 +132,7 @@ border-radius: 3rem;;
 font-size: 20px;
 margin-left:25%;
 margin-right: 25%;
-margin-top: 93px;
+margin-top: 67px;
 z-index: 1;
 
 `
