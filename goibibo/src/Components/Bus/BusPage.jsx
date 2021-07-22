@@ -15,9 +15,8 @@ import {
 
 
 export const BusPage = () => {
-
-    return (
-        <StyleBusPageCont>
+    
+    return (<StyleBusPageCont>
 
             <BackBlueCircle></BackBlueCircle>
 
@@ -38,4 +37,5 @@ export const BusPage = () => {
         </StyleBusPageCont>
 
     )
+  
 }
