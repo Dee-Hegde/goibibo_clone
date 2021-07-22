@@ -8,7 +8,8 @@ function Routers() {
         <div>
             <NavBar/>
             <Switch>
-                <Route path="/" exact>
+
+                <Route path="/bus" exact>
                  <BusPage/>
                 </Route>
 

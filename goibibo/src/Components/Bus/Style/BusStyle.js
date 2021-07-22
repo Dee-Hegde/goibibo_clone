@@ -9,7 +9,7 @@ margin: auto;
 export const StylePageContentRaper = styled.div`
 box-sizing: border-box;
 width: 94%;
-margin: -46% 3% 0% 3%;
+margin: 3% 3% 0% 3%;
 height: 800px;
 position: absolute;
 z-index: 2;
