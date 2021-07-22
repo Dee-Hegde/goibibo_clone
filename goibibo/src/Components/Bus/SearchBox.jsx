@@ -8,11 +8,7 @@ import {
     from '../../Style/BusStyle'
 
 
-
 export const SearchBox = () => {
-
-    const [value, onChange] = useState(new Date());
-
 
     return (
         <StyleSearchBox>
@@ -28,6 +24,7 @@ export const SearchBox = () => {
                     <StyleDatePickerInput type="text" placeholder="Enter Destination" />
 
                     <StyleInputLabel>Travel Date</StyleInputLabel>
+                  
                     <StyleDatePickerInput type="date" placeholder="none" style={{ border: "none", borderBottom: "1px solid grey" }} />
 
                 </div>
