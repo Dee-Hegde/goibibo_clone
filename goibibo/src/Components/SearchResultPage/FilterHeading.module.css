@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.heading_main {
+  display: flex;
+  height: 84.2px;
+  width: 100%;
+  border-bottom: 1px solid #E1E7EE;
+  padding: 30px 20px 30px 20px;
+  box-sizing: border-box;
+}
+
+.heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #141823;
+}
+
+.reset_desable {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #C5C5D0;
+    margin-top: 6.5px;
+    margin-left: 150px;
+}
+
+.reset {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #C5C5D0;
+    margin-top: 6.5px;
+    margin-left: 150px;
+    color: #2276E5;
+}
