@@ -1,10 +1,10 @@
 import React from 'react'
-import Logo from "./Images/Logo.png"
+import Styles from "./Navbar.module.css"
 
 function NavbarLogo() {
     return (
-        <div>
-            <img src={Logo} alt="" />
+        <div  className={Styles.logo2}>
+           <div  className={Styles.logo}></div>
         </div>
     )
 }

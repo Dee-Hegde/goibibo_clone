@@ -1,10 +1,10 @@
 import React from 'react'
-import {Link} from "react-router-dom"
 import NavbarLogo from './NavbarLogo'
+import Styles from "./Navbar.module.css"
 
 function NavBar() {
     return (
-        <div>
+        <div className={Styles.maindiv}>
             <NavbarLogo/>
             
             
