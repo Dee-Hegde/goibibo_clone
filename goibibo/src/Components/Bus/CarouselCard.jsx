@@ -13,7 +13,7 @@ export const CarouselCard = () => {
   ];
 
 
-  return <Carousel className="carousel-div" breakPoints={breakPoints}>
+  return <Carousel className="carousel-div" breakPoints={breakPoints} pagination={false}>
 
     <StyleCarouselImgDiv><img src="https://gos3.ibcdn.com/img-1625069014.jpg"></img></StyleCarouselImgDiv>
 

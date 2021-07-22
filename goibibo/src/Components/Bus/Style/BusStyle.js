@@ -9,7 +9,7 @@ margin: auto;
 export const StylePageContentRaper = styled.div`
 box-sizing: border-box;
 width: 94%;
-margin: 0% 3% 0% 3%;
+margin: -46% 3% 0% 3%;
 height: 800px;
 position: absolute;
 z-index: 2;
@@ -150,11 +150,13 @@ z-index: 1;
 
 `
 export const StyleCarouselImgDiv = styled.div`
-width:130%;
+width:100%;
 height:100px;
-margin:10px;
+margin:0px;
 border-radius: 15px;
 border: 1px solid black;
+margin-left: 70px;
+
 img{
     width: 100%
 }
