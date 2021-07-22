@@ -5,7 +5,7 @@ import {
     StyleInputLabel,
     StyleSearchBusButton
 }
-    from '../../Style/BusStyle'
+    from './Style/BusStyle'
 
 
 export const SearchBox = () => {

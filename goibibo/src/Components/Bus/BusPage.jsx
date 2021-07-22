@@ -1,7 +1,7 @@
 import React from 'react';
-import { BackBlueCircle } from '../Components/Bus/BackBlueCircle';
-import { OfferBox } from '../Components/Bus/OfferBox';
-import { SearchBox } from '../Components/Bus/SearchBox';
+import { BackBlueCircle } from './BackBlueCircle';
+import { OfferBox } from './OfferBox';
+import { SearchBox } from './SearchBox';
 
 import {
 
@@ -10,7 +10,7 @@ import {
     StyleSearchOfferBoxCont
 
 }
-    from '../Style/BusStyle.js'
+    from './Style/BusStyle.js'
 
 
 

@@ -8,8 +8,8 @@ margin: auto;
 
 export const StylePageContentRaper = styled.div`
 box-sizing: border-box;
-width: 90%;
-margin: 0% 5% 0% 5%;
+width: 94%;
+margin: 0% 3% 0% 3%;
 height: 800px;
 position: absolute;
 z-index: 2;
@@ -86,8 +86,10 @@ display:none;
 `
 
 export const StyleOfferBox = styled(StyleSearchBox)`
-background-color: olive;
+background-color:transparent;
 padding: 0%;
+border: none;
+box-shadow:none;
 
 .slide-show-cont{
     width:100%;
@@ -146,4 +148,14 @@ margin-right: 25%;
 margin-top: 67px;
 z-index: 1;
 
+`
+export const StyleCarouselImgDiv = styled.div`
+width:130%;
+height:100px;
+margin:10px;
+border-radius: 15px;
+border: 1px solid black;
+img{
+    width: 100%
+}
 `
