@@ -192,11 +192,50 @@ img{
 `
 
 export const StyleBusRootCont = styled.div`
+box-sizing:border-box;
 width: 100%;
-height:400px;
+height:290px;
 background-color:white;
 margin-top:16px;
 box-shadow: rgb(0 0 0 / 25%) 0px 0.1rem 0.4rem 0px;
 border-radius: 0.6rem;
+display:grid;
+grid-template-rows: 90px;
+grid-template-columns: 35% 35% 35%;
+padding: 1.5%
 
+`
+export const StyleBusRootCard = styled.div`
+display: flex;
+flex-direction: row;
+
+.icon-cont{
+
+    box-sizing:border-box;
+    /* background-color:blue; */
+    margin:1px;
+    margin-right: 10px;
+    padding-top: 3%;
+    color:#647A97;
+    font-size:14px
+}
+
+.text-box{
+    h1{
+        font-size: 18.5px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color:black;
+        margin-top:5px
+    }
+    spam{
+        color:#1680E0;
+    }
+    spam:hover{
+        color:orange
+    }
+}
 `
