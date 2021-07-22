@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.search_bar_main {
+    width: 100%;
+    padding: 5px;
+    border: 0px solid red;
+    background-color: #2276E3;
+    box-sizing: border-box;
+}
+
+.heading_container {
+    display: grid;
+    border: 0px solid black;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+    grid-template-columns: 31.9% 29.4% auto;
+    margin-top: 5px;
+}
+
+.heading_container > div {
+    text-align: left;
+    font-family: 'Yantramanav', sans-serif;
+    /* text-decoration: none solid rgb(255, 255, 255); */
+    color: #A0C4F3;
+    font-size: 13px;
+    cursor: default;
+    padding-left: 2px;
+}   
+
+.sub_container {
+    width: 80%;
+    border: 0px solid green;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.input_main {
+    display: grid;
+    border: 0px solid black;
+    grid-template-columns: 27.6% 4.3% 29.3% 20.3% auto;
+    box-sizing: border-box;
+}
+
+.input_main > div {
+    border: 0px solid red;
+    text-align: left;
+}
+
+.place_input {
+    background-color: #1951B5;
+    outline: none;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    box-sizing: border-box;
+    width: 315px;
+    height: 42px;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0.2em;
+}
+
+.date_input {
+    background-color: #1951B5;
+    outline: none;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    box-sizing: border-box;
+    width: 170px;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0.2em;
+    height: 42px;
+}
+
+.update_button {
+    width: 220px;
+    height: 42px;
+    background-color: #FFFFFF;
+    /* color: #555860; */
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none solid rgb(20, 24, 35);
+    border-radius: 0.2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
