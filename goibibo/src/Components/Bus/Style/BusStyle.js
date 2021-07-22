@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyleBusPageCont = styled.div`
 width: 100%;
+height:600px;
 background-color:#EFF3F8;
 margin: auto;
 `
@@ -9,7 +10,7 @@ margin: auto;
 export const StylePageContentRaper = styled.div`
 box-sizing: border-box;
 width: 94%;
-margin: -46% 3% 0% 3%;
+margin: 3% 3% 0% 3%;
 height: 800px;
 position: absolute;
 z-index: 2;
@@ -86,10 +87,10 @@ display:none;
 `
 
 export const StyleOfferBox = styled(StyleSearchBox)`
-background-color:transparent;
 padding: 0%;
 border: none;
 box-shadow:none;
+background-color: transparent;
 
 .slide-show-cont{
     width:100%;
@@ -151,13 +152,24 @@ z-index: 1;
 `
 export const StyleCarouselImgDiv = styled.div`
 width:100%;
-height:100px;
-margin:0px;
+height:212px;
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size: 4em;
+margin: 0% 2%;
+/* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 border-radius: 15px;
-border: 1px solid black;
-margin-left: 70px;
 
 img{
-    width: 100%
+    width: 100%;
+    border-radius: 15px;
 }
+`
+export const StyleCarouselTextBox = styled(StyleCarouselImgDiv)`
+height: 80px;
+background-color:yellow;
+margin:0%;
 `
