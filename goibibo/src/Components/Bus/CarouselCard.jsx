@@ -3,6 +3,7 @@ import Carousel from 'react-elastic-carousel';
 import "./Style/Bus.css"
 import { StyleCarouselImgDiv } from "./Style/BusStyle"
 
+
 export const CarouselCard = () => {
 
   const breakPoints = [
@@ -13,11 +14,11 @@ export const CarouselCard = () => {
   ];
 
   const url = [
-    "https://gos3.ibcdn.com/img-1625069014.jpg",
-    "https://gos3.ibcdn.com/img-1626751565.jpg",
-    "https://gos3.ibcdn.com/top-1601646731.jpg",
-    "https://gos3.ibcdn.com/img-1607921946.jpg",
-    "https://gos3.ibcdn.com/img-1623419538.jpg"
+    "img1.png",
+    "img2.png",
+    "img3.png",
+    "img4.png",
+    "img1.png"
   
   ]
 
