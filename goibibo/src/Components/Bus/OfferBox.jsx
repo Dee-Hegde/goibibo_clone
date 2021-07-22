@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import { StyleOfferBox } from '../../Style/BusStyle'
+import { StyleOfferBox } from './Style/BusStyle'
+import { CarouselCard } from './CarouselCard';
 
 export const OfferBox = () => {
 
@@ -35,6 +36,10 @@ export const OfferBox = () => {
         <StyleOfferBox>
             <div className="slide-show-cont">
                 <img src={imgs[imageIndex]} alt="error" />
+            </div>
+
+            <div>
+                <CarouselCard></CarouselCard>
             </div>
 
         </StyleOfferBox>

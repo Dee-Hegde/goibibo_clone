@@ -1,0 +1,23 @@
+.carousel-div{
+    width:100px;
+    height: 210px;
+    background-color: green;
+    border-radius: 15px;
+    margin-top: 17px;
+}
+.carousel-div button{
+    background-color: white;
+    color:blue
+}
+.carousel-div button:hover{
+    background-color: white !important;
+    color: blue !important
+}
+.carousel-div button:active{
+    background-color: white !important;
+    color: blue;
+}
+.carousel-div button:focus{
+    background-color: white !important;
+    color: blue;
+}
