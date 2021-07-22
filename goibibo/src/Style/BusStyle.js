@@ -84,8 +84,19 @@ display:none;
 }
 
 `
+
 export const StyleOfferBox = styled(StyleSearchBox)`
 background-color: olive;
+padding: 0%;
+
+.slide-show-cont{
+    width:100%;
+    height:190px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
 `
 
 export const StyleSearchOfferBoxCont = styled.div`
