@@ -17,6 +17,7 @@
   z-index: 900;
 }
 .maindiv{
+    box-sizing: border-box;
     width: 100%;
     background: #fff;
     display: flex!important;
@@ -24,4 +25,5 @@
     padding: 12px 50px!important;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
     z-index: 900;
+    position: absolute;
 }

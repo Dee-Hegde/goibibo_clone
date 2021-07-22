@@ -1,13 +1,15 @@
-import React from 'react';
 import { BackBlueCircle } from './BackBlueCircle';
+import { BusRoot } from './BusRoot';
 import { OfferBox } from './OfferBox';
+import { RecentSearch } from './RecentSearch';
 import { SearchBox } from './SearchBox';
 
 import {
 
     StyleBusPageCont,
     StylePageContentRaper,
-    StyleSearchOfferBoxCont
+    StyleSearchOfferBoxCont,
+    StyleAddContainer
 
 }
     from './Style/BusStyle.js'
@@ -31,7 +33,16 @@ export const BusPage = () => {
 
                     <SearchBox></SearchBox>
                     <OfferBox></OfferBox>
+
                 </StyleSearchOfferBoxCont>
+
+                <RecentSearch></RecentSearch>
+
+                <StyleAddContainer>
+                    <img src="ibiboAdd.png"/>
+                </StyleAddContainer>
+
+                <BusRoot></BusRoot>
 
             </StylePageContentRaper>
 

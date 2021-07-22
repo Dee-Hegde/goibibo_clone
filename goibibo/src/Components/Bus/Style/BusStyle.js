@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyleBusPageCont = styled.div`
 width: 100%;
-height:600px;
+height:100rem;
 background-color:#EFF3F8;
 margin: auto;
 `
@@ -10,7 +10,7 @@ margin: auto;
 export const StylePageContentRaper = styled.div`
 box-sizing: border-box;
 width: 94%;
-margin: 3% 3% 0% 3%;
+margin: 6% 3% 0% 3%;
 height: 800px;
 position: absolute;
 z-index: 2;
@@ -18,7 +18,7 @@ text-align: left;
 
 .page-header{
     color: rgb(255,255,255);
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -108,7 +108,7 @@ display: grid;
 grid-template-rows: 420px;
 grid-template-columns: 49% 49%;
 grid-column-gap: 2%;
-
+margin-top:18px;
 `
 export const StyleDatePickerInput = styled.input`
 box-sizing: border-box;
@@ -153,14 +153,12 @@ z-index: 1;
 export const StyleCarouselImgDiv = styled.div`
 width:100%;
 height:212px;
-/* border: 1px solid red; */
 display: flex;
 justify-content: center;
 align-items: center;
 color: #fff;
 font-size: 4em;
 margin: 0% 2%;
-/* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 border-radius: 15px;
 
 img{
@@ -172,4 +170,33 @@ export const StyleCarouselTextBox = styled(StyleCarouselImgDiv)`
 height: 80px;
 background-color:yellow;
 margin:0%;
+`
+
+export const StyleRecentSearchCont = styled.div`
+width: 100%;
+height: 150px;
+margin-top: 120px;
+`
+export const StyleAddContainer = styled.div`
+box-sizing: border-box;
+width: 80%;
+height: 90px;
+background-color: white;
+margin: auto;
+margin-top: 40px;
+
+img{
+    width: 100%;
+    height: 90%
+}
+`
+
+export const StyleBusRootCont = styled.div`
+width: 100%;
+height:400px;
+background-color:white;
+margin-top:16px;
+box-shadow: rgb(0 0 0 / 25%) 0px 0.1rem 0.4rem 0px;
+border-radius: 0.6rem;
+
 `
