@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.note_wrapper {
+    width: 79.2%;
+    margin: auto;
+    padding: 10px 10px 10px 15px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    border-radius: 0.2em;
+}
+
+.image_div {
+    width: 35px;
+    height: 30px;
+}
+
+.text_div {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.link_div {
+    margin-top: 4px;
+    margin-left: 365px;
+    cursor: pointer;
+}
+
+.link_div > a {
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #2276E5;
+}
