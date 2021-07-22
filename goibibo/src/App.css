@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #EFF3F8;
+}
+
 .App {
   text-align: center;
 }

@@ -1,13 +1,14 @@
 import React from "react";
+import { Note } from "./Note";
+import { ResultMain } from "./ResultMain";
 import { SearchBar } from "./SearchBar";
 
 function SearchResultMain() {
     return (
         <div>
             <SearchBar />
-            <div style={{height:"1000px"}}>
-
-            </div>
+            <Note />
+            <ResultMain />
         </div>
     )
 }
