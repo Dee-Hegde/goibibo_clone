@@ -1,5 +1,6 @@
 import { StyleBusRootCont } from "./Style/BusStyle"
 import "./Style/Bus.css"
+import { BusRootCard } from "./BusRootCard"
 
 export const BusRoot = () => {
     return (
@@ -11,6 +12,16 @@ export const BusRoot = () => {
             </div>
 
             <StyleBusRootCont>
+
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
+                <BusRootCard></BusRootCard>
 
             </StyleBusRootCont>
         </>
