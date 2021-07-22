@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.bus_type_main {
+    height: 137.8px;
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E1E7EE;
+}
+
+.heading_wrapper {
+    display: flex;
+    width: 100%;
+    border: 0px solid black;
+}
+
+.heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #141823;
+}
+
+.reset_desable {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #C5C5D0;
+    margin-top: 3px;
+    margin-left: 156px;
+}
+
+.reset {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #C5C5D0;
+    margin-top: 3px;
+    margin-left: 156px;
+    color: #2276E5;
+}
+
+.items_wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+}
+
+.items_wrapper > div {
+    cursor: pointer;
+    width: 120px;
+    height: 29.2px;
+}
