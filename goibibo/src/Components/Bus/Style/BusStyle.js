@@ -151,13 +151,17 @@ z-index: 1;
 `
 export const StyleCarouselImgDiv = styled.div`
 width:100%;
-height:100px;
-margin:0px;
+height:130px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size: 4em;
+margin: 0% 2%;
 border-radius: 15px;
-border: 1px solid black;
-margin-left: 70px;
 
 img{
-    width: 100%
+    width: 100%;
+    border-radius: 15px;
 }
 `

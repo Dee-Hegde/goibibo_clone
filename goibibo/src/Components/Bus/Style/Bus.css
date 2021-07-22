@@ -1,12 +1,25 @@
 .carousel-div{
     width:100px;
     height: 210px;
-    background-color: green;
+    background-color:transparent;
     border-radius: 15px;
     margin-top: 17px;
     padding: 0%;
     text-align: center;
 }
+
+.carousel-div > div{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0% 5%;
+}
+
+
+.carousel-div > div > div{
+    width: 113%;
+    margin-left: 7%;
+}
+
 .carousel-div button{
     box-sizing: border-box;
     min-width: 2.5rem !important;
@@ -18,7 +31,7 @@
     text-align: center;
     background-color: white;
     color:blue;
-    margin: 0% -10% 0% -10%;
+    margin: 0% -12% 0% -9%;
     z-index: 1;
 }
 
