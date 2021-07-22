@@ -193,7 +193,7 @@ img{
 
 export const StyleBusRootCont = styled.div`
 box-sizing:border-box;
-width: 100%;
+width: 99.5%;
 height:290px;
 background-color:white;
 margin-top:16px;
@@ -237,5 +237,27 @@ flex-direction: row;
     spam:hover{
         color:orange
     }
+}
+`
+
+export const StyleBusOperatorCont = styled(StyleBusRootCont)`
+box-sizing:border-box;
+height: 100px;
+display: flex;
+font-size:17px;
+
+a{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px 0.5rem;
+    color:#166BD6;
+}
+
+p{
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    align-items: center;
 }
 `

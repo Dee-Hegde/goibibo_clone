@@ -17,7 +17,6 @@ export const BusRootCard = () => {
                     <spam>Chandigarh, </spam>
                     <spam>Jaipur, </spam>
                     <spam>Dehradun, </spam>
-                    {/* <spam>Bangalore</spam> */}
                     </p>
             </div>
 
