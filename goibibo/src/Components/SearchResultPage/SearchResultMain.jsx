@@ -1,5 +1,6 @@
 import React from "react";
 import { Note } from "./Note";
+import { ResultMain } from "./ResultMain";
 import { SearchBar } from "./SearchBar";
 
 function SearchResultMain() {
@@ -7,9 +8,7 @@ function SearchResultMain() {
         <div>
             <SearchBar />
             <Note />
-            <div style={{height:"1000px"}}>
-
-            </div>
+            <ResultMain />
         </div>
     )
 }
