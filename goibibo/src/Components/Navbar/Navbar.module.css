@@ -17,11 +17,124 @@
   z-index: 900;
 }
 .maindiv{
-    width: 100%;
+    width: 99%;
     background: #fff;
     display: flex!important;
     align-items: center;
     padding: 12px 50px!important;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+    position: fixed;
+    top: 0;
     z-index: 900;
+}
+.linkmain{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: -50px;
+}
+.linkdiv{
+  width: 80px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(218, 218, 218);
+  align-items: center;
+  border-radius: 25px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.linkdiv > img{
+  width: 33px;
+  height: 30px;
+  margin-right: 6px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.linkdiv > p{
+text-decoration: none;
+font-size: 17px;
+font-weight: 700;
+color: rgb(119,119,119);
+}
+
+/* true links */
+
+.tlinkdiv{
+  width: 80px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(218, 218, 218);
+  align-items: center;
+  border-radius: 25px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: rgb(34,116,224);
+}
+.tlinkdiv > img{
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.tlinkdiv > p{
+text-decoration: none;
+font-size: 17px;
+font-weight: 700;
+color:#fff;
+}
+
+/* bus state only */
+
+.linkdivbus{
+  width: 65px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(218, 218, 218);
+  align-items: center;
+  border-radius: 25px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.linkdivbus > img{
+  width: 35px;
+  height: 30px;
+  margin-right: 6px;
+}
+.linkdivbus > p{
+text-decoration: none;
+font-size: 17px;
+font-weight: 700;
+color: rgb(119,119,119);
+}
+
+/* truebustate */
+.tlinkdivbus{
+  width: 65px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(218, 218, 218);
+  align-items: center;
+  border-radius: 25px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: rgb(34,116,224);
+}
+
+.tlinkdivbus > img{
+  width: 35px;
+  height: 30px;
+  margin-right: 6px;
+}
+.tlinkdivbus > p{
+text-decoration: none;
+font-size: 17px;
+font-weight: 700;
+color: #fff;
 }
