@@ -84,6 +84,16 @@ display:none;
   border-bottom: 15px solid #9BC2F6;
 }
 
+.swipe-icon{
+    font-size:40px;
+  color:grey;
+  margin-left: 92%;
+margin-top: -5%;
+}
+
+.to-label{
+    margin-top: 0px;
+}
 `
 
 export const StyleOfferBox = styled(StyleSearchBox)`
@@ -111,6 +121,7 @@ grid-column-gap: 2%;
 margin-top:18px;
 `
 export const StyleDatePickerInput = styled.input`
+width:98%;
 box-sizing: border-box;
 border:none;
 border-bottom-style: solid;

@@ -2,11 +2,13 @@ import { applyMiddleware, combineReducers, createStore } from "redux"
 import { compose } from "redux"
 import thunk from "redux-thunk"
 import { loginReducer } from "./Login/reducer"
+import { BookingReducer } from "./SearchBus/BookingReducer"
 
 
 
 const rootreducer = combineReducers({
     loginred:loginReducer,
+    booking:BookingReducer
 
 })
 

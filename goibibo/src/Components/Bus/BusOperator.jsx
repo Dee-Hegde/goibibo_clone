@@ -2,6 +2,9 @@ import "./Style/Bus.css"
 import { StyleBusOperatorCont } from "./Style/BusStyle"
 
 export const BusOperator = () => {
+
+    const data = ["Cauvery Travels","Ideal Travels","MRC Travels","Sri Durga Tourist","VRL Travels", "Pragathi Tourist Corporation","Bharathi Travels","Sugama Tourist","Sowmiya Travels","Anand Travels"]
+
     return (
         <>
 
@@ -12,39 +15,14 @@ export const BusOperator = () => {
             <StyleBusOperatorCont>
 
                 <p>
+                    {data.map((el) => {
 
-                    <a>GSRTCHKJ</a>
-                    l
+                        return <>
 
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJDDDDDDDDDDDDDDDDDDDD</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
-
-                    <a>GSRTCHKJ</a>
-                    l
+                         <a>{el}</a>
+                         <spam>l</spam>
+                         </>
+                    })}
 
                 </p>
 
