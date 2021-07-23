@@ -1,14 +1,13 @@
 import React, {useState} from "react";
-import styles from "./BoardingFilter.module.css"
+import styles from "./BusOperatorFilter.module.css"
 
-function FilterBoarding() {
-    const [boardingFilter, setboardingFilter] = useState(null)
+function FilterBusOperator() {
+    const [busOperatorFilter, setbusOperatorFilter] = useState(null)
     const [text, setText] = useState("")
     const [isHide, setIsHide] = useState(false);
 
-    // Kottara, Infosys, Ksrtc, PVS, Pumpwell, Urwa Store, Ladyhill,
-    //  PANDITH HOUSE, KUTTAR PADAV, Yenopaya University Gate, Kuloor, Haleyangadi, 
-    //  Padupanambur, Hosabettu, Honnakatte, Kulai, BAIKAMPADY, Padupanambur
+    // Cauvery Travels, Ideal Travels, MRC Travels, Sri Durga Tourist, VRL Travels, 
+    // Pragathi Tourist Corporation, Bharathi Travels, Sugama Tourist, Sowmiya Travels, Anand Travels
 
     // const items_sample = [
     //     {id : 1, name : "Kottara", status : false},
@@ -17,24 +16,16 @@ function FilterBoarding() {
     // ]
 
     const items = [
-        {id : 1, name : "Kottara", status : false},
-        {id : 2, name : "Infosys", status : false},
-        {id : 3, name : "Ksrtc", status : false},
-        {id : 4, name : "PVS", status : false},
-        {id : 5, name : "pumpwell", status : false},
-        {id : 6, name : "Urwa Store", status : false},
-        {id : 7, name : "Ladyhill", status : false},
-        {id : 8, name : "Kuttar Padav", status : false},
-        {id : 9, name : "Yenopaya University", status : false},
-        {id : 10, name : "Haleyangadi", status : false},
-        {id : 11, name : "Padupanambur", status : false},
-        {id : 12, name : "Hosabettu", status : false},
-        {id : 13, name : "Honnakatte", status : false},
-        {id : 14, name : "Pandit House", status : false},
-        {id : 15, name : "Kulai", status : false},
-        {id : 16, name : "Baikampady", status : false},
-        {id : 17, name : "Padupanambur", status : false},
-        {id : 18, name : "Kuloor", status : false},
+        {id : 1, name : "Cauvery Travels", status : false},
+        {id : 2, name : "Ideal Travels", status : false},
+        {id : 3, name : "MRC Travels", status : false},
+        {id : 4, name : "Sri Durga Tourist", status : false},
+        {id : 5, name : "VRL Travels", status : false},
+        {id : 6, name : "Pragathi Tourist Corporation", status : false},
+        {id : 7, name : "Bharathi Travels", status : false},
+        {id : 8, name : "Sugama Tourist", status : false},
+        {id : 9, name : "Sowmiya Travels", status : false},
+        {id : 10, name : "Anand Travels", status : false},
     ]
 
     const [item, setItem] = useState(items)
@@ -76,13 +67,13 @@ function FilterBoarding() {
         }
     }
     return (
-        <div className={styles.boarding_main}>
+        <div className={styles.bus_operator_main}>
             <div className={styles.heading_wrapper}>
-                <div className={styles.heading}>Boarding Point</div>
-                {boardingFilter === null ? <div className={styles.reset_desable} >Reset</div> : <div className={styles.reset}>Reset</div> }
+                <div className={styles.heading}>Bus Operator</div>
+                {busOperatorFilter === null ? <div className={styles.reset_desable} >Reset</div> : <div className={styles.reset}>Reset</div> }
             </div>
             <div className={styles.input_wrapper}>
-                <input type="text" value={text} placeholder="Enter/Search boarding point" className={styles.search_input} onChange={handleChange}/>
+                <input type="text" value={text} placeholder="Enter/Search operator" className={styles.search_input} onChange={handleChange}/>
                 <div className={styles.logo_wrapper} >
                     {text === "" ? <img src="https://i.imgur.com/DTZeXlj.jpg" alt="search_logo" style={{width:"100%"}}/> : <img src="https://i.imgur.com/5YUm9k6.jpg" alt="cancel_logo" style={{width:"100%"}} onClick={handleClearSearch}/> }
                 </div>
@@ -110,4 +101,4 @@ function FilterBoarding() {
     )
 }
 
-export {FilterBoarding};
+export {FilterBusOperator};
