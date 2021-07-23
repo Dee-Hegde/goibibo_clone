@@ -210,9 +210,7 @@ display: flex;
 flex-direction: row;
 
 .icon-cont{
-
     box-sizing:border-box;
-    /* background-color:blue; */
     margin:1px;
     margin-right: 10px;
     padding-top: 3%;
@@ -253,6 +251,9 @@ a{
     padding: 0px 0.5rem;
     color:#166BD6;
 }
+a:hover{
+    color:orange
+}
 
 p{
     display: flex;
@@ -260,4 +261,59 @@ p{
     -webkit-box-align: center;
     align-items: center;
 }
+`
+export const StyleFAQCont = styled(StyleBusRootCont)`
+box-sizing: border-box;
+display:flex;
+flex-direction: column;
+height:auto;
+padding-right: 10%;
+
+.Q-icon{
+    box-sizing: border-box;
+    width:23px;
+    height:23px;
+    border-radius: 50%;
+    background-color:#EEF4FD;
+    text-align:center;
+    font-size: 14px;
+    font-weight:600;
+    
+}
+
+.A-icon{
+    box-sizing: border-box;
+    width:23px;
+    height:23px;
+    border-radius: 50%;
+    background-color:#EEF4FD;
+    text-align:center;
+    font-size: 14px;
+    font-weight:400;
+}
+
+.Question{
+    display:flex;
+    flex-direction:row;
+    gap:10px
+}
+
+.answer{
+    
+    margin-top:13px;
+    margin-bottom:23px;
+}
+
+.Q-text{
+    font-weight: 500;
+    font-size:18.5px
+}
+.A-text{
+width:auto;
+font-size:16px;
+margin-left:36px;
+margin-top: -2.3%;
+font-weight: 400;
+}
+
 `
