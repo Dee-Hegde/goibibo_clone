@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
-.boarding_main {
+.amenities_main {
     /* height: 137.8px; */
     width: 100%;
     padding: 15px 20px 15px 20px;
@@ -14,6 +14,7 @@
     display: flex;
     width: 100%;
     border: 0px solid black;
+    margin-bottom: 20px;
 }
 
 .heading {
@@ -95,13 +96,13 @@
     cursor: pointer;
 }
 
-/* .item > div:nth-child(2) {
+.item > div:nth-child(2) {
     margin-left: 5px;
     height: 25px;
     cursor: pointer;
-} */
+}
 
-.item > div:nth-child(2) {
+.item > div:nth-child(3) {
     font-family: 'Arimo', sans-serif;
     font-size: 14px;
     cursor: pointer;
