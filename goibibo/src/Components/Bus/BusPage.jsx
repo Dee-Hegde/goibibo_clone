@@ -1,6 +1,7 @@
 import { BackBlueCircle } from './BackBlueCircle';
 import { BusOperator } from './BusOperator';
 import { BusRoot } from './BusRoot';
+import { FAQ } from './FAQ';
 import { OfferBox } from './OfferBox';
 import { RecentSearch } from './RecentSearch';
 import { SearchBox } from './SearchBox';
@@ -46,6 +47,8 @@ export const BusPage = () => {
                 <BusRoot></BusRoot>
 
                 <BusOperator></BusOperator>
+
+                <FAQ></FAQ>
 
             </StylePageContentRaper>
 
