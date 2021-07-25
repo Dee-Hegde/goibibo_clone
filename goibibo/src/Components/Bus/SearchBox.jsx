@@ -70,7 +70,7 @@ export const SearchBox = () => {
 
                 <StyleInputLabel>Travel Date</StyleInputLabel>
 
-                <StyleDatePickerInput type="date" onChange={handleChange} name="date" placeholder="none" style={{ border: "none", borderBottom: "1px solid grey" }} />
+                <StyleDatePickerInput type="date" onChange={handleChange} name="date" placeholder="none" style={{ border: "none", borderBottom: "1px solid rgb(239, 243, 248)" }} />
 
                 <DateButton></DateButton>
 
