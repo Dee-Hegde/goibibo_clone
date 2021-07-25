@@ -5,6 +5,7 @@ import { FAQ } from './FAQ';
 import { OfferBox } from './OfferBox';
 import { RecentSearch } from './RecentSearch';
 import { SearchBox } from './SearchBox';
+import { Footer } from '../Footer/Footer';
 
 import {
 
@@ -19,9 +20,10 @@ import {
 
 
 export const BusPage = () => {
-    
+
     return (
-    <StyleBusPageCont>
+        <>
+        <StyleBusPageCont>
 
             <BackBlueCircle></BackBlueCircle>
 
@@ -41,7 +43,7 @@ export const BusPage = () => {
                 <RecentSearch></RecentSearch>
 
                 <StyleAddContainer>
-                    <img src="ibiboAdd.png"/>
+                    <img src="ibiboAdd.png" />
                 </StyleAddContainer>
 
                 <BusRoot></BusRoot>
@@ -53,7 +55,9 @@ export const BusPage = () => {
             </StylePageContentRaper>
 
         </StyleBusPageCont>
+        <Footer></Footer>
+        </>
 
     )
-  
+
 }

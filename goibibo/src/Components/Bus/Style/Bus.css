@@ -97,3 +97,21 @@
 .bus-root-header{
     margin-top:30px
 }
+
+.recent-search-main-cont{
+box-sizing: border-box;
+display:grid;
+grid-template-columns: auto;
+grid-template-rows: 110px;
+}
+
+.today-btn{
+    margin-left:30px;
+    font-size:14px;
+    text-transform:none;
+}
+
+.tomorrow-btn{
+    width:40%;
+    margin-left:10px;
+}

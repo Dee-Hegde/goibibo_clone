@@ -34,6 +34,17 @@ padding:3% 5%;
 .search-box-input-cont{
     display:flex;
     flex-direction: column;
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+  margin-right: 35%;
+  margin-left:-0.5%;
+  position:absolute;
+  width: 13%;
+}
 }
 
 .social-dis-img{
@@ -84,6 +95,16 @@ display:none;
   border-bottom: 15px solid #9BC2F6;
 }
 
+.swipe-icon{
+    font-size:40px;
+  color:grey;
+  margin-left: 92%;
+margin-top: -5%;
+}
+
+.to-label{
+    margin-top: 0px;
+}
 `
 
 export const StyleOfferBox = styled(StyleSearchBox)`
@@ -111,6 +132,7 @@ grid-column-gap: 2%;
 margin-top:18px;
 `
 export const StyleDatePickerInput = styled.input`
+width:98%;
 box-sizing: border-box;
 border:none;
 border-bottom-style: solid;
@@ -314,6 +336,26 @@ font-size:16px;
 margin-left:36px;
 margin-top: -2.3%;
 font-weight: 400;
+}
+
+`
+
+export const StyleFooterDiv = styled.div`
+box-sizing: border-box;
+width:100%;
+background-color: white;
+height: 768px;
+margin-top:68%;
+
+div{
+
+margin:0%;
+
+    img{
+    width:100%;
+    height:100%
+}
+
 }
 
 `
