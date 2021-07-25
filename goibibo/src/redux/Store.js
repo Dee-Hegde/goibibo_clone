@@ -2,12 +2,13 @@ import { applyMiddleware, combineReducers, createStore } from "redux"
 import { compose } from "redux"
 import thunk from "redux-thunk"
 import { loginReducer } from "./Login/reducer"
+import { resultReducer } from "./SearchResult/reducer"
 
 
 
 const rootreducer = combineReducers({
     loginred:loginReducer,
-
+    results:resultReducer
 })
 
 const store = createStore(rootreducer, 

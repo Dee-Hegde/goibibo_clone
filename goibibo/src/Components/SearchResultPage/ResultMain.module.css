@@ -5,7 +5,7 @@
 .result_main {
     display: grid;
     grid-template-columns: 24.5% 74%;
-    border: 1px solid red;
+    border: 0px solid red;
     width: 79.2%;
     margin: auto;
     height: 1400px;

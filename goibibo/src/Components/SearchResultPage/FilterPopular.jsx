@@ -28,7 +28,7 @@ function FilterPopular() {
             </div>
             <div className={styles.items_wrapper}>
                 {
-                    item.map(item => <div className={styles.item} key={items.id}>
+                    item.map(item => <div className={styles.item} key={item.id}>
                         <div onClick={() => handleCheck(item.id)}>
                             {!item.status ? <img src="https://i.imgur.com/pG7Wbex.jpg" alt="check_box" style={{width:"100%"}}/> : <img src="https://i.imgur.com/F2WOT92.jpg" alt="check_box" style={{width:"100%"}}/> }
                             
