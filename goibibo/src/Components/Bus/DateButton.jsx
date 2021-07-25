@@ -20,7 +20,7 @@ export const DateButton = () => {
   return (
     <div className={classes.root}>
 
-        <div className="today-btn" style={{position:"absolute",zIndex:"1",marginTop:"-50px",marginLeft:"18%"}}>
+        <div className="today-btn" style={{position:"absolute",zIndex:"1",marginTop:"-50px",marginLeft:"21%"}}>
    
         <Button variant="contained" className="today-btn" style={{marginLeft:"30px",fontSize:"14px",textTransform:"none",backgroundColor:"#E8F1FC",color:"#2274E0"}}>
        Today,Sun 24july
