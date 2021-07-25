@@ -155,7 +155,7 @@ export const StyleLeftCont = styled.div`
 box-sizing: border-box;
 width:30%;
 height:195vh;
-background-color: lightgreen;
+/* background-color: lightgreen; */
 border-radius: 6px;
 z-index:2;
 margin-top:195px;
