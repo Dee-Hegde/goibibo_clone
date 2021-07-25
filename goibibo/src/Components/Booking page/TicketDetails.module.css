@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+.traveller_heading {
+    width: 793px;
+    height: 78.4px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    /* border-bottom: 1px solid #CCCACA; */
+}
+.traveller_details {
+    width: 793px;
+    height: 210.6px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E1E7EE;
+}
+.note {
+    width: 745px;
+    height: 35.2px;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+    color: #898B91;
+    text-align: left;
+    margin-left: 22px;
+}
+.heading {
+    border: 1px solid #E1E7EE;
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.heading > div:nth-child(1) {
+    height: 24px;
+    width: 24px;
+    background-color: #F3F3F4;
+    color: #898891;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 1em;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.heading > div:nth-child(2) {
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.heading > div:nth-child(3) {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    color: #141823;
+    margin-top: 3px;
+}
+.detail_heading {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 25px;
+    gap: 10px;
+}
+.detail_heading > div:nth-child(1) {
+    width: 407px;
+    height: 28.4px;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #141823;
+}
+.detail_heading > div:nth-child(2) {
+    width: 139px;
+    height: 28.4px;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #141823;
+} 
+.input_feilds {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+}
+.input_feilds > input:nth-child(1) {
+    outline: none;
+    border: 1px solid #E5EDF6;
+    width: 407px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.input_feilds > input:nth-child(2) {
+    outline: none;
+    border: 1px solid #E5EDF6;
+    width: 139px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.email_mobile_cont {
+    width: 793px;
+    height: 215.8px;
+    padding: 24px 24px 24px 24px;
+    box-sizing: border-box;
+    border-top: 1px solid #E1E7EE;
+    background-color: #FFFFFF;
+}
+.email_heading {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #141823;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+}
+.email_input {
+    width: 447px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #E5EDF6;
+    margin-left: -300px;
+    margin-bottom: 25px;
+}
+.pay_button {
+    width: 793px;
+    height: 53.2px;
+    margin: 10px 0 15px 0;
+    padding: 15px 20px 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #FF6D38;
+    border-radius: 0.3em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
