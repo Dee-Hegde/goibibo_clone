@@ -154,7 +154,7 @@ flex-direction: column;
 export const StyleLeftCont = styled.div`
 box-sizing: border-box;
 width:30%;
-height:200vh;
+height:195vh;
 background-color: lightgreen;
 border-radius: 6px;
 z-index:2;
