@@ -20,17 +20,29 @@ z-index:2;
 margin-top:195px;
 display: flex;
 flex-direction: column;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
 .imp-information{
     width:100%inherit;
     height:120px;
     background-color: white;
     border-radius: 6px;
     margin-top: 15px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
     img{
         width:100%;
         height:100%
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
 .point-details-card{
         box-sizing: border-box;
         width:100%;
@@ -40,12 +52,20 @@ flex-direction: column;
         grid-template-rows: 170px;
         margin-top:20px;
         border-radius: 6px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
         .Point-detail-content{
             padding-left:5.5%;
             padding-right: 3%;
             padding-bottom: 2%;
             padding-top: 5%;
             text-align: left;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
             h3{
                 font-size: 14px;
                 font-weight: 500;
@@ -63,26 +83,47 @@ flex-direction: column;
                 color: white;
                 margin-top: 10px;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
             h2{
                 font-size:20px;
                 font-weight: 600;
                 margin-top: 10px;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
             p{
                 font-size: 13px;
                 margin-top: 10px;
                 color: grey;
             }
         }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
         .boarding-point{
             background-color: white;
             border-radius: 6px;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
         .dropping-point{
             background-color: white;
             border-radius: 6px;
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
 .travel-limited{
     box-sizing: border-box;
     width:100%;
@@ -105,14 +146,26 @@ flex-direction: column;
         font-size: 13px;
         color: grey;
         margin-top: 0px;
+<<<<<<< HEAD
         spam{
             font-weight: 700;
             color: black;
+=======
+
+        spam{
+            font-weight: 700;
+            color: black;
+           
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
         }
         .dot{
             font-weight: 700;
             margin-left:10px;
             font-size: 19px;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 2d0963a1c6046648879921a3ac11aac5e52a1558
         }
     }
 .upper-box{
@@ -164,4 +217,21 @@ export const StyleTicketDetailsMain = styled.div`
 box-sizing: border-box;
 margin-top: 20px;
 width: 100%;
+`
+
+export const StyleLeftTextBox = styled.div`
+box-sizing: border-box;
+width:100%;
+height:50px;
+background-color: white;
+border-radius:3px;
+margin-top:1px;
+text-align: left;
+padding-left:3%;
+padding-top: 3%;
+font-size: 14px;
+font-weight: 600;
+spam {
+    text-align: left;
+}
 `
