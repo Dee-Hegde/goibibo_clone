@@ -9,10 +9,10 @@ busRouter.get("/", async(req, res)=>{
     res.send({data: temp});
 })
 
-busRouter.patch("/", async(req, res)=>{
+busRouter.post("/:id", async(req, res)=>{
     try {
         console.log("patching bus data");
-        const temp = await Bus.findById("60f918f6cb92ae6033d24f18").lean().exec(); // need the actual id of the bus
+        const temp = await Bus.findById(req.params.id).lean().exec(); // need the actual id of the bus
         let seats_arr = temp.seats;
         console.log(seats_arr);
     
@@ -22,7 +22,7 @@ busRouter.patch("/", async(req, res)=>{
         console.log("u_cost", u_cost);
         console.log("l_cost", l_cost);
     
-        let seat_arr_len = ["U3", "U4", "U5"]; // array of booked seats
+        let seat_arr_len = req.body; // array of booked seats
     
         for(let i=0; i<3; i++){
             for(let j=0; j<seats_arr.length; j++){
@@ -36,8 +36,8 @@ busRouter.patch("/", async(req, res)=>{
             }
         }
     
-        const output = await Bus.findByIdAndUpdate("<60f918f6cb92ae6033d24f18>", {seats: seats_arr});
-        res.send({data: output});   
+        const output = await Bus.findByIdAndUpdate(req.params.id, {seats: seats_arr});
+        res.send({data: output}); 
     } catch (e) {
         res.send({message: "something went wrong"});
     }

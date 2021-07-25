@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require("express");
+var cors = require('cors')
 const mongoose = require("mongoose");
 const busRouter = require("./controllers/bus.controller");
 const Bus = require("./models/bus.model");
@@ -7,6 +8,7 @@ const Bus = require("./models/bus.model");
 const app = express();
 
 app.use(express.json());
+app.use(cors())
 
 const connect = ()=>{
     // return mongoose.connect("mongodb://127.0.0.1:27017/project", {

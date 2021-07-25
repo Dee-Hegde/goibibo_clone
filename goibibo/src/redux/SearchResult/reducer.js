@@ -1,14 +1,30 @@
-import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType";
+import { UPDATE_BUS, GET_SELECTED_SEATS, GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType";
 
 const init = {
     data : [],
     bus_filters : [],
     isLoading : false,
-    isError : false
+    isError : false,
+    seats: [],
+    bus_id: "",
+    isConfirmed: false
 }
 
 const resultReducer = (state = init, action) => {
     switch (action.type) {
+
+        case UPDATE_BUS: {
+            return {
+                ...state, bus_id: action.payload
+            }
+        }
+
+        case GET_SELECTED_SEATS: {
+            return {
+                ...state, seats: action.payload
+            }
+        }
+
         case GET_DATA_REQUEST: {
             return {
                 ...state, isLoading : true

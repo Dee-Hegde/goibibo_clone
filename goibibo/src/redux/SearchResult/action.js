@@ -1,9 +1,23 @@
-import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType"
+import { UPDATE_BUS, GET_SELECTED_SEATS, GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType"
 import Axios from "axios"
 
 const axios = Axios.create({
     baseURL:"http://localhost:2244"
 })
+
+const updateBus = (payload) => {
+    return {
+        type : UPDATE_BUS,
+        payload: payload
+    }
+}
+
+const getSelectedSeats = (payload) => {
+    return {
+        type : GET_SELECTED_SEATS,
+        payload: payload
+    }
+}
 
 const getDataRequest = () => {
     return {
@@ -57,4 +71,4 @@ const getData = (payload) => (dispatch) => {
     })
 }
 
-export {getDataFailure, getDataSuccess, getDataRequest, getData, getFilterItems, getUpdatedData}
+export {updateBus, getSelectedSeats, getDataFailure, getDataSuccess, getDataRequest, getData, getFilterItems, getUpdatedData}

@@ -48,7 +48,7 @@ function Results() {
                 {sort.map(item => item.status === false ? <div key={item.id} className={styles.sort} onClick={() => handleSort(item.id)}>{`${item.type}`} <span>↓</span> </div> : item.status === true ? <div key={item.id} className={styles.sort} onClick={() => handleSort(item.id)}>{`${item.type}`} <span>↑</span></div> : item.status === "" ? <div className={styles.sort_empty} key={item.id} onClick={() => handleSort(item.id)}>{item.type}</div> : "" )}
             </div>
             {
-                data.data?.map(item => <Bus key={item.id} {...item} />  )
+                data.data?.map(item => <Bus key={item._id} {...item} />  )
             }
         </div>
     )

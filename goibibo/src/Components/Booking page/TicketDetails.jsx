@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import styles from "./TicketDetails.module.css";
 import {StyleTicketDetailsMain} from "./style/BookingStyle"
+import axios from "axios";
+import {useSelector} from "react-redux";
+import {Link} from "react-router-dom"
 
 
 
@@ -25,6 +28,23 @@ function TravellerDetails() {
         const value = e.target.value
         setMobile(value);
     }
+
+    const myid = useSelector(state => state.results.bus_id);
+    const myseats = useSelector(state => state.results.seats);
+
+    const handlePay = ()=>{
+        console.log(myseats);
+        const seat_arr = myseats.map(seat => seat.pos);
+        console.log(seat_arr);
+        axios({
+            url: `http://localhost:2244/bus/${myid}`,
+            method: "post",
+            data: seat_arr
+        }).then(function(res){
+            console.log(res.data);
+        })
+    }
+
     return (
         <StyleTicketDetailsMain>
             <div style={{ backgroundColor: "#FFFFFF", width: "100%" }}>
@@ -60,9 +80,11 @@ function TravellerDetails() {
                     <input type="text" placeholder="Enter Mobile Number" className={styles.email_input} onChange={handleUpdateMobile} />
                 </div>
             </div>
-            <div className={styles.pay_button}>
+            <Link to="/confirmed">
+            <div onClick={handlePay} className={styles.pay_button}>
                 Pay
             </div>
+            </Link>
         </StyleTicketDetailsMain>
     )
 }

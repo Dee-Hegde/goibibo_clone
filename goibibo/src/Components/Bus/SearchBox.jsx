@@ -1,5 +1,6 @@
 import {useState } from 'react';
 import { useDispatch } from 'react-redux';
+import {Link} from "react-router-dom";
 
 import {
     StyleSearchBox,
@@ -93,7 +94,9 @@ export const SearchBox = () => {
 
             </div>
 
-            <StyleSearchBusButton onClick={handleSubmit}>SEARCH BUS</StyleSearchBusButton>
+            <Link to="/search">
+                <StyleSearchBusButton onClick={handleSubmit}>SEARCH BUS</StyleSearchBusButton>
+            </Link>
 
         </StyleSearchBox>
     )

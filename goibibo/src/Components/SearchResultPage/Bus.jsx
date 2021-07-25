@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Bus.module.css"
+import {Link} from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { getSelectedSeats, updateBus } from "../../redux/SearchResult/action";
 
-function Bus({company, destination_t, duration, source_t, seats, type, source_l, destination_l, rating, boarding_point, dropping_point, amenities}) {
+function Bus({_id, company, destination_t, duration, source_t, seats, type, source_l, destination_l, rating, boarding_point, dropping_point, amenities}) {
     const [isHide, setisHide] = useState(false);
+
+    console.log("_id", _id);
 
     const handleToggleIsHide = () => {
         setisHide(!isHide);
@@ -283,7 +288,15 @@ function Bus({company, destination_t, duration, source_t, seats, type, source_l,
         total_price = total_price + totalSelectedSeats[i].cost
     }
 
+    const mydata = useSelector(state => state.results.data);
+    const dispatch = useDispatch();
 
+    const handleSeats = (id)=>{
+        const busid = mydata?.data?.filter(item => item._id==id);
+        console.log("busid", busid[0]._id);
+        dispatch(getSelectedSeats(totalSelectedSeats));
+        dispatch(updateBus(busid[0]._id));
+    }
 
 
 
@@ -463,7 +476,7 @@ function Bus({company, destination_t, duration, source_t, seats, type, source_l,
                                 </div>}
                             </div>
                         </div>
-                        {totalSelectedSeats.length > 0 ? <div className={styles.continue_button}>CONTINUE</div>  :  <div className={styles.continue_button_disable}>SELECT SEATS TO PROCEED</div> }
+                        {totalSelectedSeats.length > 0 ? <Link to="/booking"><div onClick={()=>handleSeats(_id)} className={styles.continue_button}>CONTINUE</div></Link>   :  <div className={styles.continue_button_disable}>SELECT SEATS TO PROCEED</div> }
                         {totalSelectedSeats.length > 0 && <> <div className={styles.seat_selected_price}>
                         <div>Seat selected</div>
                         <div>{`₹${total_price}`}</div> 
