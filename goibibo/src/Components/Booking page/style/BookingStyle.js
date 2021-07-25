@@ -14,7 +14,8 @@ gap:25px;
 `
 
 export const StyleRightCont = styled.div`
-flex-grow: 5;
+box-sizing: border-box;
+width:68%;
 height:100vh;
 background-color: lightcyan;
 border-radius: 6px;
@@ -67,7 +68,8 @@ flex-direction: column;
 `
 
 export const StyleLeftCont = styled.div`
-flex-grow: 2.5;
+box-sizing: border-box;
+width:30%;
 height:200vh;
 background-color: lightgreen;
 border-radius: 6px;
@@ -99,4 +101,10 @@ font-weight: 300;
 .route{
     margin-top: 35px;
 }
+`
+
+export const StyleTicketDetailsMain = styled.div`
+box-sizing: border-box;
+margin-top: 20px;
+width: 100%;
 `

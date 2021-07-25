@@ -14,10 +14,11 @@
     /* border-bottom: 1px solid #CCCACA; */
 }
 .traveller_details {
-    width: 793px;
+    width: 100%;
     height: 210.6px;
     background-color: #FFFFFF;
     border-top: 1px solid #E1E7EE;
+  
 }
 .note {
     width: 745px;
