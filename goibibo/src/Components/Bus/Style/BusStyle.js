@@ -34,6 +34,17 @@ padding:3% 5%;
 .search-box-input-cont{
     display:flex;
     flex-direction: column;
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+  margin-right: 35%;
+  margin-left:-0.5%;
+  position:absolute;
+  width: 13%;
+}
 }
 
 .social-dis-img{
@@ -325,6 +336,26 @@ font-size:16px;
 margin-left:36px;
 margin-top: -2.3%;
 font-weight: 400;
+}
+
+`
+
+export const StyleFooterDiv = styled.div`
+box-sizing: border-box;
+width:100%;
+background-color: white;
+height: 768px;
+margin-top:68%;
+
+div{
+
+margin:0%;
+
+    img{
+    width:100%;
+    height:100%
+}
+
 }
 
 `

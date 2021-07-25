@@ -5,6 +5,7 @@ import { FAQ } from './FAQ';
 import { OfferBox } from './OfferBox';
 import { RecentSearch } from './RecentSearch';
 import { SearchBox } from './SearchBox';
+import { Footer } from '../Footer/Footer';
 
 import {
 
@@ -21,6 +22,7 @@ import {
 export const BusPage = () => {
 
     return (
+        <>
         <StyleBusPageCont>
 
             <BackBlueCircle></BackBlueCircle>
@@ -53,6 +55,8 @@ export const BusPage = () => {
             </StylePageContentRaper>
 
         </StyleBusPageCont>
+        <Footer></Footer>
+        </>
 
     )
 

@@ -12,7 +12,9 @@ export const BookingReducer = (state=initState,{type,payload}) => {
 
         case BOOKING_DATA:
 
+        console.log("payload",payload)
             return {
+                ...state,
                 bookingData: payload,
                 recentSearches: [...state.recentSearches,payload]
             }
