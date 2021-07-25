@@ -1,8 +1,8 @@
 import {StyleFooterDiv} from "../Bus/Style/BusStyle"
 
-export const Footer = () => {
+export const Footer = ({style}) => {
     return (
-        <StyleFooterDiv>
+        <StyleFooterDiv style={style}>
             
           <div>
               <img src="Footer1.png" alt="error"/>
