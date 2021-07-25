@@ -192,3 +192,20 @@ box-sizing: border-box;
 margin-top: 20px;
 width: 100%;
 `
+
+export const StyleLeftTextBox = styled.div`
+box-sizing: border-box;
+width:100%;
+height:50px;
+background-color: white;
+border-radius:3px;
+margin-top:1px;
+text-align: left;
+padding-left:3%;
+padding-top: 3%;
+font-size: 14px;
+font-weight: 600;
+spam {
+    text-align: left;
+}
+`
