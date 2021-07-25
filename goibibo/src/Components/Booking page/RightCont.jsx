@@ -24,9 +24,9 @@ export const RightCont = () => {
                 <div className="dropping-point"></div>
             </div>
 
-            <div>
+            
                 <TravellerDetails></TravellerDetails>
-            </div>
+           
         </StyleRightCont>
     )
 }
