@@ -1,4 +1,4 @@
-import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS } from "./actionType"
+import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType"
 import Axios from "axios"
 
 const axios = Axios.create({
@@ -18,10 +18,24 @@ const getDataSuccess = (payload) => {
     }
 }
 
+const getFilterItems = (payload) => {
+    return {
+        type : GET_FILTER_ITEMS,
+        payload
+    }
+}
+
 const getDataFailure = (error) => {
     return {
         type : GET_DATA_FAILURE,
         payload : error
+    }
+}
+
+const getUpdatedData = (payload) => {
+    return {
+        type : GET_UPDATED_DATA,
+        payload
     }
 }
 
@@ -43,4 +57,4 @@ const getData = (payload) => (dispatch) => {
     })
 }
 
-export {getDataFailure, getDataSuccess, getDataRequest, getData}
+export {getDataFailure, getDataSuccess, getDataRequest, getData, getFilterItems, getUpdatedData}

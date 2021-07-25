@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import {useDispatch, useSelector} from "react-redux"
-import { getData } from "../../redux/SearchResult/action";
+import { getData, getUpdatedData } from "../../redux/SearchResult/action";
 import { Bus } from "./Bus";
 import styles from "./Results.module.css"
 
 function Results() {
     const dispatch = useDispatch();
     const {data, isLoading, isError} = useSelector((state) => state.results);
+    const {bus_filters} = useSelector((state) => state.results);
     // console.log(data.data);
     const sorts = [
         {type : "BEST", status : false, id : 1},
@@ -26,13 +27,20 @@ function Results() {
     }
 
     useEffect(() => {
-        dispatch(getData());
-    }, [])
+        // if (bus_filters.length > 0) {
+        //     const updatedData = data.data.filter(item => item.type[1] === bus_filters[0]?.name || item.type[2] === bus_filters[0]?.name || item.type[2] === bus_filters[1]?.name || item.type[1] === bus_filters[1]?.name)
+
+        //     dispatch(getUpdatedData(updatedData));
+        // } else {
+            dispatch(getData());
+        // }
+        
+    }, [bus_filters])
 
     return (
         <div className={styles.results_main}>
             <div className={styles.no_of_results}>
-                <div>Showing<span> 12 buses</span></div>
+                <div>Showing<span>{` ${data.data?.length} buses`}</span></div>
                 <div className={styles.next_day}>Next Day</div>
             </div>
             <div className={styles.sort_main}>

@@ -1,7 +1,8 @@
-import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS } from "./actionType";
+import { GET_DATA_FAILURE, GET_DATA_REQUEST, GET_DATA_SUCCESS, GET_FILTER_ITEMS, GET_UPDATED_DATA } from "./actionType";
 
 const init = {
     data : [],
+    bus_filters : [],
     isLoading : false,
     isError : false
 }
@@ -20,7 +21,17 @@ const resultReducer = (state = init, action) => {
         }
         case GET_DATA_FAILURE: {
             return {
-                ...state, isLoading : false, isError : true
+                ...state, isLoading : false, isError : true, 
+            }
+        }
+        case GET_FILTER_ITEMS: {
+            return {
+                ...state, isLoading : false, isError: false, bus_filters : [...action.payload]
+            }
+        }
+        case GET_UPDATED_DATA: {
+            return {
+                ...state, isLoading : false, isError: false, data : [...action.payload]
             }
         }
         default:
