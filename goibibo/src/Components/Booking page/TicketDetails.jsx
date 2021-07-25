@@ -58,7 +58,7 @@ function TravellerDetails() {
                     <div className={styles.heading}>
                         <div>1</div>
                         <div> <img src="https://i.imgur.com/UNmTVgh.jpg" alt="seat_image" style={{ width: "100%" }} /> </div>
-                        <div>U17</div>
+                        <div>U4 U9</div>
                     </div>
                     <div className={styles.detail_heading}>
                         <div>Full Name</div>
