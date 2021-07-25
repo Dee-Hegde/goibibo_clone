@@ -4,7 +4,8 @@
 
 .filter_main {
     border: 0px solid red;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     margin-top: 24px;
     border-radius: 0.2em;
+    max-height: auto;
 }
