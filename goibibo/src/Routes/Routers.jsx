@@ -2,6 +2,7 @@ import React from 'react'
 import {Switch,Route} from "react-router"
 import NavBar from '../Components/Navbar/NavBar'
 import {BusPage} from "../Components/Bus/BusPage"
+import { Footer } from '../Components/Footer/Footer'
 
 function Routers() {
     return (
@@ -14,7 +15,7 @@ function Routers() {
                 </Route>
 
             </Switch>
-            
+
         </div>
     )
 }

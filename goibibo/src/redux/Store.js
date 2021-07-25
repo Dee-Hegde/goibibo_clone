@@ -8,13 +8,14 @@ import { BookingReducer } from "./SearchBus/BookingReducer"
 
 const rootreducer = combineReducers({
     loginred:loginReducer,
-    booking:BookingReducer
+    bookingred:BookingReducer
 
 })
 
 const store = createStore(rootreducer, 
     compose(applyMiddleware(thunk),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__()
-    ))
+    ));
+
 
 export default store;
