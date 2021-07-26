@@ -44,7 +44,7 @@ export const AcordionBoxPrice = () => {
                 <div style={{width:"330px",textAlign:"initial",height:"30px"}}>
                   Total Basefare
 
-                  <spam style={{float:"right"}}>₹6000</spam>
+                  <spam style={{float:"right"}}>₹1600</spam>
                   </div>
                 
                 
@@ -58,7 +58,7 @@ export const AcordionBoxPrice = () => {
 
       <StyleLeftTextBox>
         <spam >Final Price</spam>
-        <spam style={{ marginLeft: "65%" }}>₹6000</spam>
+        <spam style={{ marginLeft: "65%" }}>₹1600</spam>
       </StyleLeftTextBox>
 
     </>
