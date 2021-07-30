@@ -57,7 +57,7 @@ Goibibo is India’s leading online travel booking brand providing range of choi
 ![image](https://user-images.githubusercontent.com/77038788/127657750-4094c4fc-8096-4a8e-8bb3-dfe364523541.png)
 
 
-![image](https://user-images.githubusercontent.com/77038788/127657859-fec9cd94-8b5d-4e7e-99ac-669ecd4d7d19.png)
+![image](https://user-images.githubusercontent.com/77038788/127658120-7f979bb0-946e-414e-9d71-34fe199a8cc5.png)
 
 
 ![image](https://user-images.githubusercontent.com/77038788/127657948-09373cf6-0f2c-4d79-99da-804b41aa2189.png)
