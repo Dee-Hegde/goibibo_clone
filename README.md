@@ -53,10 +53,10 @@ Deepak Hegde (sm2_052) - Repo Maintainance, Navbar.
 ### Bus Section Main Page :
 ![image](https://user-images.githubusercontent.com/77038788/127657570-91658525-9cd7-4b78-90a6-e1e682f11683.png)
 
-
+### Search Result Page
 ![image](https://user-images.githubusercontent.com/77038788/127657750-4094c4fc-8096-4a8e-8bb3-dfe364523541.png)
 
-
+### Seat selection Process & Booking section
 ![image](https://user-images.githubusercontent.com/77038788/127658120-7f979bb0-946e-414e-9d71-34fe199a8cc5.png)
 
 
