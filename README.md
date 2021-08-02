@@ -50,6 +50,7 @@ Shanoor Baalekundri (sm2_163) - Bus booking page.
 Deepak Hegde (sm2_052) - Repo Maintainance, Navbar.
 
 # Images
+Bus Section Main Page :
 ![image](https://user-images.githubusercontent.com/77038788/127657570-91658525-9cd7-4b78-90a6-e1e682f11683.png)
 
 
