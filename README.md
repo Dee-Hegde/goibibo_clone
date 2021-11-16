@@ -62,5 +62,7 @@ Deepak Hegde (sm2_052) - Repo Maintainance, Navbar.
 ### Booking review page
 ![image](https://user-images.githubusercontent.com/77038788/127657948-09373cf6-0f2c-4d79-99da-804b41aa2189.png)
 
-
+### Deployed Link
+* Frontend: https://goibibo-project-dff906.netlify.app/
+* Backend: Not yet deployed
 
